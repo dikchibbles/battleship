@@ -17,6 +17,10 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.css$/, // Apply this rule to .css files
+        use: ["style-loader", "css-loader"], // Use these loaders in order
+      },
     ],
   },
   resolve: {

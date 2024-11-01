@@ -4,7 +4,7 @@
   grid-template-rows: repeat(10, minmax(30px, 1fr));
   gap: 2px; /* Optional: space between cells */
   width: 100%; /* Makes the board responsive */
-  max-width: 500px; /* Sets a max size to control scaling */
+  max-width: 700px; /* Sets a max size to control scaling */
   margin: auto; /* Centers the board */
   border: 2px solid #333;
 }
@@ -13,6 +13,11 @@
   background-color: #1e90ff; /* Color for unhit cells */
   border: 1px solid #ccc;
   aspect-ratio: 1; /* Ensures cells are squares */
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: black;
 }
 
 /* Optional: Different styles for hits, misses, etc. */
