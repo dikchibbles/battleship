@@ -1,0 +1,25 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(30px, 1fr));
+  grid-template-rows: repeat(10, minmax(30px, 1fr));
+  gap: 2px; /* Optional: space between cells */
+  width: 100%; /* Makes the board responsive */
+  max-width: 500px; /* Sets a max size to control scaling */
+  margin: auto; /* Centers the board */
+  border: 2px solid #333;
+}
+
+.cell {
+  background-color: #1e90ff; /* Color for unhit cells */
+  border: 1px solid #ccc;
+  aspect-ratio: 1; /* Ensures cells are squares */
+}
+
+/* Optional: Different styles for hits, misses, etc. */
+.cell.hit {
+  background-color: #ff6347; /* Example color for hits */
+}
+
+.cell.miss {
+  background-color: #e6e6e6; /* Example color for misses */
+}
