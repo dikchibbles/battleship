@@ -7,6 +7,7 @@ class Ship {
     this.destroyed = false;
   }
   checkForDamage(target) {}
+
   isDestroyed() {
     return this.destroyed;
   }
