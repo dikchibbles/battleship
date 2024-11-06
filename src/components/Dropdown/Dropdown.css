@@ -1,8 +1,7 @@
 .dropdown {
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin: 1em 0;
-  width: 100%;
+  min-width: 50px;
 }
 
 .dropdown-header {
@@ -13,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.2em;
+  height: 20px;
 }
 
 .dropdown-content {

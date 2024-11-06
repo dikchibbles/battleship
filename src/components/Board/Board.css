@@ -6,7 +6,6 @@
   width: 100%; /* Makes the board responsive */
   max-width: 700px; /* Sets a max size to control scaling */
   margin: auto; /* Centers the board */
-  border: 2px solid #333;
 }
 
 .cell {
